@@ -159,3 +159,36 @@ body {
 html{
     background-color: #0d1a20;
 }
+
+.contact span {
+    height: 40px;
+    width: 40px;
+    display: grid;
+    place-content: center;
+    border-radius: 100%;
+    font-size: 1.2rem;
+    color: var(--primary-color-dark);
+    background-color: var(--white);
+    transform: rotate(90deg);
+}
+
+.footer{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.socials span {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--white);
+    cursor: pointer;
+    transition: 0.3s;
+}
