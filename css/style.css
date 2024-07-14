@@ -94,3 +94,68 @@ body {
     margin: auto;
     transform: rotate(-20deg);
 }
+@keyframes shoe-animation {
+    0%{
+        transform: translateY(0px);
+    }
+    70%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.header {
+    position: absolute;
+    top: 7rem;
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.header p {
+    text-align: right;
+    color: var(--white);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header p:hover {
+    color: var(--secondary-color);
+}
+
+.featured__item {
+    position: absolute;
+    transform: rotate(-90deg);
+}
+
+.featured__item h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: var(--white);
+}
+
+.featured__item p {
+    color: var(--white);
+}
+
+.contact {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--white);
+    transform: rotate(-90deg);
+}
+
+html{
+    background-color: #0d1a20;
+}
